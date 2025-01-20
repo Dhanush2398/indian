@@ -85,8 +85,8 @@ h2.resp-accordion {
 h2.resp-accordion {
     font-size: 17px;
     border: 1px solid #c1c1c1;
-    border-top: 0px solid #c1c1c1;
-    margin: 0px;
+    border-top: 1px solid #c1c1c1;
+  margin-top: 20px;
     padding: 16px 15px;
     letter-spacing: 1px;
 }
