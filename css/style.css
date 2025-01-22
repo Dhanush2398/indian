@@ -63,14 +63,15 @@ label {
 /*-- header --*/
 
 .header {
-    background: #000;
+    background: white;
+
 }
 
 .header ul li {
     display: inline-block;
     width: 29.5%;
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 13px;
     padding: 7px 0;
     letter-spacing: 1px;
@@ -78,7 +79,7 @@ label {
 }
 
 .header ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -481,6 +482,7 @@ i.fa.fa-shopping-bag.top_logo_agile_bag {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
 }
 
 .menu__item {
@@ -902,14 +904,12 @@ figure.effect-roxy:hover p,
 
 .footer {
     padding: 4em 0;
-    background: #000;
-    justify-content: space-evenly;
+    background: #000;  
 }
 
 .footer_agile_inner_info_w3l {
     width: 90%;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 ul.social-nav.model-3d-0.footer-social.w3_agile_social.two {
@@ -6322,11 +6322,18 @@ p.w3ls_para {
 .logo img{
     height: 100px;
 }
+.logo3 img{
+    height: 100px;
+}
 
 @media (min-width: 480px) {
     .logo img {
-    position: relative;
-   left: 300px;
+   display: none;
+    }
+}
+@media (min-width: 480px) {
+    .header-bot {
+   display: none;
     }
 }
 .logo2 img{
@@ -6634,6 +6641,7 @@ p.w3ls_para {
   }
 
   
+
 
 
 @media (max-width: 480px) {
